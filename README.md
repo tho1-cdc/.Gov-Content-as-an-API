@@ -1,11 +1,58 @@
 .Gov-Content-as-an-API
 ======================
 
-Standards, Tools, and Guidance for offering web content as a web service
+Standards, Tools, and Guidance for offering web content and digital media throug a web service. This ecompasses media discovery mechanisms for searching and browsing, and methods to retrieve the embed code needed to embed a media item into a hosting site.  Includes tools for capturing view and click-through metrics from syndicated media and administrative tools to support Software as a Service (Saas) implementations for hosting multiple media storefronts against a single set of media syndication services.
+
 
 
 ### API Standards for Content APIs 
-* [White House API Standards](https://github.com/WhiteHouse/api-standards)
+* [White House API Standards](https://github.com/WhiteHouse/api-standards) with a few extensions; specifically to allow for multiple messages in the return for buld operations and also an extension of the pagination mechanism.  These changes have been proposed as enhancements to the Whitehouse.gov specification on GitHub.
+* 
+Key Components of a Media API
+1. Content Discovery
+   a. Storefronts, Marketplaces, Marketing and discovery
+   b. By Type
+   c. By Facet
+   d. By Date
+   e. By Source
+   f. Seaches
+      i. Duration of Search
+      ii. Complete vs. Incomplete result sets
+      iii. Cached Results sets
+   g. Allowing for out of band discovery
+   h. Real time or near real time discovery
+   i. Retraction of Content
+   j. Collecting feedback on content
+
+2. Extensibility
+   a. New content / Media types
+
+3. Metadata
+   a. Discovering Metadata
+   b. Providing access to value sets for facets
+   c. Geographical Metadata
+   d. Metadata extensibility
+   e. Tying media to metadata
+
+4. Enabling Media Embedding
+   a. Static embed types
+   b. Dynamic embed types
+   c. A little JavaSecipt Help
+
+5. Providing for Registration
+   a. The case for registration
+   b. The case against registration
+
+6. Terms of Service / Usage Guidelines
+  
+7. Versioning the API
+
+8. Providing API consumption tools / SDKs
+
+9. Building communities around Content
+
+10. Building Developer Communities to reach new channels
+
 
 
 ### Tools for Content API generation
